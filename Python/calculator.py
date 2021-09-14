@@ -90,9 +90,10 @@ while True:
     #this try/except will hopefully catch all smartasses
     try:
         main()
-        again = input("\n New equation (y/n)? ")
+        again = input("\nNew equation (y/n)? ")
         if again == "y":
             pass
+            print("\n")
         elif again == "n":
             break
         else:
