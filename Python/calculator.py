@@ -27,7 +27,7 @@ def calc(a,b,c):
     
     #quotient
     elif c==3:
-        return(a/b)
+        return(round((a/b), 2))
         
     #modulo
     elif c==4:
