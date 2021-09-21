@@ -51,7 +51,6 @@ def check_condition(num1, list1):
         return(3)
     
     if '_' not in list1:
-        print("oops")
         return(2)
         
     else:
