@@ -48,11 +48,11 @@ def spaces(letters, mystery):
     
 def check_condition(num1, list1):
     if num1 >= 7:
-        return(False)
+        return(3)
     
     if '_' not in list1:
         print("oops")
-        return(True)
+        return(2)
         
     else:
         return(1)
@@ -68,19 +68,17 @@ spaces(letters, mystery)
 while True:
     print("\n"*50)
     print_pinata(len(missed_characters))
-    print(len(missed_characters))
-    print(mystery)
     print("\n")
     print(print_mystery(mystery))
     print("\n")
-    if check_condition(len(missed_characters), mystery):
+    if check_condition(len(missed_characters), mystery) ==1:
+        pass
+    elif check_condition(len(missed_characters), mystery) == 2:
         print("Victory! Good game.")
         break
-    elif check_condition(len(missed_characters), mystery) == False:
+    elif check_condition(len(missed_characters), mystery) == 3:
         print("Too bad! Get outta here.")
         break
-    else:
-        pass
     print("\n")
     guess = input("Guess: ")
     if check(guess, letters, mystery) != False:
