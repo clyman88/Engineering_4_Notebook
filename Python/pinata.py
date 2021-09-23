@@ -7,7 +7,32 @@ words = []
 letters = []
 mystery = []
 word = ""
+player1 = ""
+player2 = ""
+p1_score = 0
+p2_score = 0
 
+def opening():
+    global player1
+    global player2
+    p1 = input("Player 1, enter username: ")
+    p2 = input("Player 2, enter username: ")
+    doc = open("players.txt", "r")
+    print(doc.readlines())
+    for i in doc.readlines():
+        if p1 in doc.readlines()[i]:
+            reading = doc.readlines()[i].split("~")
+            player1 = reading[0]
+            p1_score = reading[1]
+            doc.close()
+            print("welcome back!")
+        else:
+            doc.close()
+            doc = open("players.txt", "a")
+            doc.write("\n" + p1+"~0")
+            print("created new player.")
+    
+    
 def print_pinata(n):
     p = ""
     for i in range(0,n+1):
@@ -25,7 +50,7 @@ def assign(given,num, list1):
     if num==3:
         return(list1)
         
-def check(guess, letters, output):
+def check_if_correct(guess, letters, output):
     correct = False
     for i in range(0, len(letters)):
         if guess.lower() == letters[i].lower():
@@ -47,7 +72,7 @@ def spaces(letters, mystery):
     if check(" ", letters, mystery) != False:
         mystery = check(" ", letters, mystery)
     
-def check_condition(num1, list1):
+def check_win_condition(num1, list1):
     if num1 >= 7:
         return(3)
     
@@ -73,11 +98,13 @@ def start():
 running = True
 start()
 while running:
+    
     print("\n"*50)
     print_pinata(len(missed_characters))
     print("\n")
     print(print_mystery(mystery))
     print("\n")
+    
     while True:
         guess = input("Guess: ")
         if guess in guessed_characters:
@@ -87,15 +114,18 @@ while running:
           print("Please only input one-letter...letters.")
         else:
             break
-    if check(guess, letters, mystery) != False:
+        
+    if check_if_correct(guess, letters, mystery) != False:
         mystery = check(guess, letters, mystery)
         guessed_characters.append(guess)
     else:
         missed_characters.append(guess)
         guessed_characters.append(guess)
-    if check_condition(len(missed_characters), mystery) ==1:
+        
+        
+    if check_win_condition(len(missed_characters), mystery) ==1:
         pass
-    elif check_condition(len(missed_characters), mystery) == 2:
+    elif check_win_condition(len(missed_characters), mystery) == 2:
         print("Victory! Good game. You won in " + str(len(guessed_characters)) + " guesses.")
         play_again = input("Play again? (y/n): ")
         if play_again == "y":
@@ -103,7 +133,7 @@ while running:
         else:
           running = False
           break
-    elif check_condition(len(missed_characters), mystery) == 3:
+    elif check_win_condition(len(missed_characters), mystery) == 3:
         print("Too bad! The word was " + word + ".")
         play_again = input("Play again? (y/n): ")
         if play_again == "y":
