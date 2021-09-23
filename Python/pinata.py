@@ -12,26 +12,34 @@ player2 = ""
 p1_score = 0
 p2_score = 0
 
+p2_guesser = True
+
 def opening():
     global player1
     global player2
+    exists = False
     p1 = input("Player 1, enter username: ")
     p2 = input("Player 2, enter username: ")
     doc = open("players.txt", "r")
-    print(doc.readlines())
-    for i in doc.readlines():
-        if p1 in doc.readlines()[i]:
-            reading = doc.readlines()[i].split("~")
-            player1 = reading[0]
-            p1_score = reading[1]
+    document = doc.read().split("\n")
+    for i in range(0,len(document)):
+        test = document[i].split("~")
+        if p1 in test:
+            player1 = test[0]
+            p1_score = test[1]
             doc.close()
-            print("welcome back!")
-        else:
-            doc.close()
-            doc = open("players.txt", "a")
-            doc.write("\n" + p1+"~0")
-            print("created new player.")
-    
+            print("Welcome back! "+player1+", you have won "+p1_score+" games.")
+            exists = True
+            break
+    if exists == False:
+        doc = open("players.txt", "a")
+        doc.write("\n" + p1+"~0")
+        print("created new player.")
+        doc.close()
+    sleep(2)
+    print(p1 +", you will enter the first word.")
+    sleep(2)
+
 opening()
 def print_pinata(n):
     p = ""
@@ -127,6 +135,8 @@ while running:
         pass
     elif check_win_condition(len(missed_characters), mystery) == 2:
         print("Victory! Good game. You won in " + str(len(guessed_characters)) + " guesses.")
+        if p2_guesser == True:
+            pass
         play_again = input("Play again? (y/n): ")
         if play_again == "y":
             start()
