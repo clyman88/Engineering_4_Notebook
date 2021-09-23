@@ -116,7 +116,7 @@ while running:
             break
         
     if check_if_correct(guess, letters, mystery) != False:
-        mystery = check(guess, letters, mystery)
+        mystery = check_if_correct(guess, letters, mystery)
         guessed_characters.append(guess)
     else:
         missed_characters.append(guess)
