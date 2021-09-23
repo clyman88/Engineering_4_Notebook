@@ -32,7 +32,7 @@ def opening():
             doc.write("\n" + p1+"~0")
             print("created new player.")
     
-    
+opening()
 def print_pinata(n):
     p = ""
     for i in range(0,n+1):
