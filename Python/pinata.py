@@ -69,7 +69,7 @@ def print_mystery(list1):
     return b
         
 def spaces(letters, mystery):
-    if check(" ", letters, mystery) != False:
+    if check_if_correct(" ", letters, mystery) != False:
         mystery = check(" ", letters, mystery)
     
 def check_win_condition(num1, list1):
