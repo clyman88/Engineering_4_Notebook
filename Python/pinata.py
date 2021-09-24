@@ -13,7 +13,7 @@ p1_score = 0
 p2_score = 0
 
 p2_guesser = True
-
+'''
 def opening():
     global player1
     global player2
@@ -40,7 +40,7 @@ def opening():
     print(p1 +", you will enter the first word.")
     sleep(2)
 
-opening()
+opening()'''
 def print_pinata(n):
     p = ""
     for i in range(0,n+1):
@@ -78,10 +78,10 @@ def print_mystery(list1):
         
 def spaces(letters, mystery):
     if check_if_correct(" ", letters, mystery) != False:
-        mystery = check(" ", letters, mystery)
+        mystery = check_if_correct(" ", letters, mystery)
     
 def check_win_condition(num1, list1):
-    if num1 >= 7:
+    if num1 >= 6:
         return(3)
     
     if '_' not in list1:
@@ -134,7 +134,13 @@ while running:
     if check_win_condition(len(missed_characters), mystery) ==1:
         pass
     elif check_win_condition(len(missed_characters), mystery) == 2:
+        print("\n"*50)
+        print_pinata(len(missed_characters))
+        print("\n")
+        print(print_mystery(mystery))
+        print("\n")
         print("Victory! Good game. You won in " + str(len(guessed_characters)) + " guesses.")
+        sleep(2)
         if p2_guesser == True:
             pass
         play_again = input("Play again? (y/n): ")
@@ -144,7 +150,13 @@ while running:
           running = False
           break
     elif check_win_condition(len(missed_characters), mystery) == 3:
+        print("\n"*50)
+        print_pinata(len(missed_characters))
+        print("\n")
+        print(print_mystery(mystery))
+        print("\n")
         print("Too bad! The word was " + word + ".")
+        sleep(2)
         play_again = input("Play again? (y/n): ")
         if play_again == "y":
             start()
