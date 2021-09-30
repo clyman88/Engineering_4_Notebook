@@ -11,20 +11,19 @@ What ISN'T there to say about Cole Lyman? A lot!
 
 ---
 
-## Basics
-You can delete this section from your own personal readme. 
+## Calculator
 
 ### Assignment Description
 
-Write your assignment description here. It should be at least a few sentences.
+For the calculator assignment, the goal was to create a program that, when given two numbers, would output various mathematical functions between the two numbers. The required functions were a sum, difference, product, quotient, and modulo. The spicy version also required each number's factorial.
 
 ### Evidence 
 
-Pictures / Gifs of your work should go here.  You need to communicate what your thing does. For code only assignments like the Python calculator, include a screenshot of the output of the code.
+![Woohoo](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/Screenshot%202021-09-30%209.57.02%20AM.png)
 
 ### Wiring
 
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here.
+N/A
 
 ### Reflection
 
