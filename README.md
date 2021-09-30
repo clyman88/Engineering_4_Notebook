@@ -73,7 +73,9 @@ N/A
 
 ### Reflection
 
-"What the hell is a discriminant again?", my mind vigorously rifling through crusty memories of freshman year Algebra 2 class. Luckily for it, Google is a thing.
+"What the hell is a discriminant again?", my mind vigorously rifling through crusty memories of freshman year Algebra 2 class asks itself. Luckily for it, Google is a thing.
+
+On first glance, the assignment seemed challenging, but doing some preliminary research and reminding myself
 
 What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience?  Your ultimate goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
 
