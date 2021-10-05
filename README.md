@@ -73,11 +73,40 @@ N/A
 
 ### Reflection
 
-"What the hell is a discriminant again?", my mind vigorously rifling through crusty memories of freshman year Algebra 2 class asks itself. Luckily for it, Google is a thing.
+"What the hell is a discriminant again?", my mind asks itself, vigorously rifling through crusty memories of freshman year Algebra 2 class. Luckily for it, Google is a thing.
 
-On first glance, the assignment seemed challenging, but doing some preliminary research and reminding myself
+On first glance, the assignment seemed challenging, but doing some preliminary research and reminding myself what the quadratic formula was again for the umpteenth time in my High School career, it was pretty straightforward. I also was a big fan of making multiple small functions, instead of one or two big functions. I find it easier on the eyes to look at this:
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience?  Your ultimate goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+```python
+def get_input(num):
+    ans = input("Please enter coefficient " + prompt[num])
+    return(int(ans))
+
+def get_discriminant(a, b, c):
+    return((b**2) - (4*a*c))
+
+def get_roots(a, b, c, root_list):
+    root_list.append((-b + sqrt(get_discriminant(a,b,c)))/(2*a))
+    root_list.append((-b - sqrt(get_discriminant(a,b,c)))/(2*a))
+    return(root_list) #returning the list so we can print it later
+```
+
+Instead of this:
+
+```python
+def find_roots(num, a, b, c, root list):
+    for i in range(3):
+        ans = input("Please enter coefficient " + prompt[num])
+        if i == 1:
+            a = ans
+        if i == 2:
+            b = ans
+        if i == 3:
+            c = ans
+    root_list.append((-b + sqrt(((b**2) - (4*a*c)))/(2*a))
+    root_list.append((-b - sqrt(((b**2) - (4*a*c)))/(2*a))
+    return(root_list)
+```
 
 ## Basics
 You can delete this section from your own personal readme. 
