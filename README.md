@@ -216,18 +216,37 @@ for i in range(0, (incorrect_guesses + 1)):
 
 ```
 
-This surprised me by working correctly! Everything else was relatively straightforward, but here are some things that initially gave me pause (and my solutions to them:)
+This surprised me by working correctly! Everything else was relatively straightforward, but here are some things that initially gave me pause (and my solutions to them):
 
 **Problem:**
 If an input was something like "Hello world" (i.e. has more than one word), the output will be:
-> ___________
+```python
+___________
+```
 
 Instead of:
-
-> _____ _____
-
+```python
+_____ _____
+```
 **Solution:**
-Before the second user even has the opportunity to guess, the program will manually run through the guessing function with " " as the input. If the input has more than one word, it will automatically substitute the underscore for the space, as that "letter" has been "guessed".
+Before the second user even has the opportunity to guess, the program will manually run through the guessing function with " " as the input. If the input has more than one word, it will automatically substitute the underscore for the space, as that "letter" has been "guessed". All of this was put into a function which was then called whenever the user first inputs a sentence:
 
+```python
+def check_if_correct(guess, letters, output):
+    correct = False
+    for i in range(0, len(letters)):
+        if guess.lower() == letters[i].lower():
+            output[i] = guess
+            correct = True
+    if correct:
+        return(output)
+    else:
+        return(False)
+
+def spaces(letters, mystery):
+    if check_if_correct(" ", letters, mystery) != False:
+        mystery = check_if_correct(" ", letters, mystery)
+        
+```
 
 What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience?  Your ultimate goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
