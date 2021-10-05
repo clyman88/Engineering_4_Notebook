@@ -47,7 +47,7 @@ print("Difference: " + calc(x, y, 1))
 ```
 I also wasn't a fan of having massive print() statements taking up multiple lines, so I made it a bit more paletteable:
 
-```
+```python
 spice = ["Sum: ", "Difference: ", "Product: ", "Quotient: ", "Modulo: ", "First Factorial: ", "Second Factorial: "]
 
 for i in range(0,7):
