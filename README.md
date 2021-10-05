@@ -200,8 +200,34 @@ If the word is guessed, the second user wins. If the Man-Shaped Pinata is fully 
 
 ### Wiring
 
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here.
+N/A
 
 ### Reflection
+
+Right off the bat, figuring out how to print out a MSP limb-by-limb was a bit of a head scratcher, but I eventually settled on this solution:
+
+```python
+
+incorrect_guesses = 0
+pinata = ["---┐", "\n   o","\n  /","|", "\\", "\n  /"," \\"]
+
+for i in range(0, (incorrect_guesses + 1)):
+   print(pinata[i]) 
+
+```
+
+This surprised me by working correctly! Everything else was relatively straightforward, but here are some things that initially gave me pause (and my solutions to them:)
+
+**Problem:**
+If an input was something like "Hello world" (i.e. has more than one word), the output will be:
+> ___________
+
+Instead of:
+
+> _____ _____
+
+**Solution:**
+Before the second user even has the opportunity to guess, the program will manually run through the guessing function with " " as the input. If the input has more than one word, it will automatically substitute the underscore for the space, as that "letter" has been "guessed".
+
 
 What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience?  Your ultimate goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
