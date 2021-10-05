@@ -228,6 +228,9 @@ Instead of:
 ```python
 _____ _____
 ```
+
+This is because I have a function that affects the variable "mystery_word", which is a version of the input that is what the display is. It functions by iterating through each letter in the input, and if the letter has been guessed, it writes out the letter instead of an underscore. However, it counts spaces as letters.
+
 **Solution:**
 Before the second user even has the opportunity to guess, the program will manually run through the guessing function with " " as the input. If the input has more than one word, it will automatically substitute the underscore for the space, as that "letter" has been "guessed". All of this was put into a function which was then called whenever the user first inputs a sentence:
 
