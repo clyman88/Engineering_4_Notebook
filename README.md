@@ -5,6 +5,11 @@ We strive to answer that question here, and document our findings in a neat and 
 
 ## Table of Contents
 
+- [Calculator](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#calculator)
+- [Quadratic Solver](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#quadratic-solver)
+- [Strings and Loops](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#strings-and-loops)
+- [Man-Shaped Pinata]
+
 ## About Cole Lyman
 
 What ISN'T there to say about Cole Lyman? A lot!
