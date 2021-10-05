@@ -164,12 +164,31 @@ The big thing for Future Cole Lyman to remember is **list comprehensions**, whic
 Here's a link, Future Cole Lyman: [List Comprehensions](https://docs.python.org/2/tutorial/datastructures.html#list-comprehensions)
 
 
-## Basics
-You can delete this section from your own personal readme. 
+## Man-Shaped Pinata
 
 ### Assignment Description
 
-Write your assignment description here. It should be at least a few sentences.
+This assignment required a program to written that would function as a game as hangman, where one user inputs a word and a second user must guess the word, letter by letter. 
+
+```python
+_____ _____
+```
+
+Each time a letter that is guessed is included in the first user's secret word, the location of that letter is revealed.
+
+```python
+_ello _orl_
+```
+
+Each time a letter that is guessed is **not** included in the secret word, a stick-figure starts to form under a pole.
+```python
+-----
+    O
+   /|\
+   /
+```
+
+If the word is guessed, the second user wins. If the Man-Shaped Pinata is fully drawn, the first user wins.
 
 ### Evidence 
 
