@@ -8,7 +8,7 @@ We strive to answer that question here, and document our findings in a neat and 
 - [Calculator](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#calculator)
 - [Quadratic Solver](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#quadratic-solver)
 - [Strings and Loops](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#strings-and-loops)
-- [Man-Shaped Pinata]
+- [Man-Shaped Pinata](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#man-shaped-pinata)
 
 ## About Cole Lyman
 
@@ -216,7 +216,7 @@ for i in range(0, (incorrect_guesses + 1)):
 
 ```
 
-This surprised me by working correctly! Everything else was relatively straightforward, but here are some things that initially gave me pause (and my solutions to them):
+This surprised me by working correctly! Everything else was relatively straightforward, but there was one other issue that stumped me for a bit:
 
 **Problem:**
 If an input was something like "Hello world" (i.e. has more than one word), the output will be:
@@ -249,4 +249,4 @@ def spaces(letters, mystery):
         
 ```
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience?  Your ultimate goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+And that's that!
