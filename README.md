@@ -80,7 +80,7 @@ N/A
 
 "What the hell is a discriminant again?", my mind asks itself, vigorously rifling through crusty memories of freshman year Algebra 2 class. Luckily for it, Google is a thing.
 
-On first glance, the assignment seemed challenging, but doing some preliminary research and reminding myself what the quadratic formula was again for the umpteenth time in my High School career, it was pretty straightforward. I also am a big fan of making multiple small functions, instead of one or two big functions. I find it easier on the eyes to look at this:
+On first glance, the assignment seemed challenging, but after doing some preliminary research and reminding myself what the quadratic formula was again for the umpteenth time in my High School career, it was pretty straightforward. I also am a big fan of making multiple small functions, instead of one or two big functions. I find it easier on the eyes to look at this:
 
 ```python
 def get_input(num):
