@@ -192,10 +192,10 @@ If the word is guessed, the second user wins. If the Man-Shaped Pinata is fully 
 
 ### Evidence 
 
-![MSP1](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/MSP1.png)
-![MSP2](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/MSP2.png)
-![MSP3](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/MSP3.png)
-![MSP5](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/MSP5.png)
+![MSP1](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/P1.png)
+![MSP2](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/P2.png)
+![MSP3](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/P3.png)
+![MSP4](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/P4.png)
 
 ### Wiring
 
