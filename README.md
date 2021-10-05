@@ -114,8 +114,11 @@ def find_roots(num, a, b, c, root list):
 
 The assignment was to create a program that would accept an input, and then output each letter of the string one-by-one, with words being separated by "-".
 
-For example, an input of "Hello world" would return:
+For example:
 
+```python
+Input: "Hello world"
+Output:
 H
 e
 l
@@ -128,6 +131,7 @@ r
 l
 d
 -
+```
 
 ### Evidence 
 
