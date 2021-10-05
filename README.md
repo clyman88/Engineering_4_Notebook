@@ -192,7 +192,10 @@ If the word is guessed, the second user wins. If the Man-Shaped Pinata is fully 
 
 ### Evidence 
 
-Pictures / Gifs of your work should go here.  You need to communicate what your thing does. For code only assignments like the Python calculator, include a screenshot of the output of the code.
+![MSP1](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/MSP1.png)
+![MSP2](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/MSP2.png)
+![MSP3](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/MSP3.png)
+![MSP5](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/MSP5.png)
 
 ### Wiring
 
