@@ -75,7 +75,7 @@ N/A
 
 "What the hell is a discriminant again?", my mind asks itself, vigorously rifling through crusty memories of freshman year Algebra 2 class. Luckily for it, Google is a thing.
 
-On first glance, the assignment seemed challenging, but doing some preliminary research and reminding myself what the quadratic formula was again for the umpteenth time in my High School career, it was pretty straightforward. I also was a big fan of making multiple small functions, instead of one or two big functions. I find it easier on the eyes to look at this:
+On first glance, the assignment seemed challenging, but doing some preliminary research and reminding myself what the quadratic formula was again for the umpteenth time in my High School career, it was pretty straightforward. I also am a big fan of making multiple small functions, instead of one or two big functions. I find it easier on the eyes to look at this:
 
 ```python
 def get_input(num):
@@ -108,12 +108,30 @@ def find_roots(num, a, b, c, root list):
     return(root_list)
 ```
 
-## Basics
-You can delete this section from your own personal readme. 
+## Strings and Loops
 
 ### Assignment Description
 
-Write your assignment description here. It should be at least a few sentences.
+The assignment was to create a program that would accept an input, and then output each letter of the string one-by-one, with words being separated by "-".
+
+For example, an input of:
+
+> Hello world
+
+Would return:
+
+>H
+>e
+>l
+>l
+>o
+>-
+>w
+>o
+>r
+>l
+>d
+>-
 
 ### Evidence 
 
