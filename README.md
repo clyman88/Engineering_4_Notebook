@@ -157,7 +157,7 @@ word = input("Enter your word: ").replace(" ", "-").split() + ["-"]
 
 words = [print(b) for i in range(len(word)) for b in word[i]]
 ```
-Yes, it's the ugliest piece of garbage. But it's *my* ugly piece of garbage.
+Yes, it's an ugly piece of garbage. But it's *my* ugly piece of garbage.
 
 The big thing for Future Cole Lyman to remember is **list comprehensions**, which is how this code is so condensed.
 
