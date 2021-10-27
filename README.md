@@ -272,14 +272,12 @@ This assignment required the creation of a Swing Arm designed from four provided
 
 ### Evidence 
 
-![MSP1](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/P1.png)
-![MSP2](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/P2.png)
-
-![MSP3](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/P3.png)
-![MSP4](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/P4.png)
+![SwingArm1](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/Swing1.png)
+![SwingArm2](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/Swing2.png)
 
 ### Wiring
 
 N/A
 
 ### Reflection
+
