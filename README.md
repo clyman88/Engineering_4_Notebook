@@ -9,12 +9,18 @@ What ISN'T there to say about Cole Lyman? A lot!
 
 ## Table of Contents
 
+### Python:
+
 - [Calculator](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#calculator)
 - [Quadratic Solver](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#quadratic-solver)
 - [Strings and Loops](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#strings-and-loops)
 - [Man-Shaped Pinata](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#man-shaped-pinata)
 
+### CAD:
+
 ---
+
+# Python
 
 ## Calculator
 
@@ -253,3 +259,27 @@ def spaces(letters, mystery):
 ```
 
 And that's that!
+
+---
+
+# CAD
+
+## Swing Arm:
+
+### Assignment Description
+
+This assignment required the creation of a Swing Arm designed from four provided drawings. The mass was then to be determined based off of what variables were used for certain measurements.
+
+### Evidence 
+
+![MSP1](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/P1.png)
+![MSP2](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/P2.png)
+
+![MSP3](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/P3.png)
+![MSP4](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/P4.png)
+
+### Wiring
+
+N/A
+
+### Reflection
