@@ -18,6 +18,9 @@ What ISN'T there to say about Cole Lyman? A lot!
 
 ### CAD:
 
+- [Calculator](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#swing-arm)
+- [Skateboard](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#skateboard)
+
 ---
 
 # Python
@@ -282,7 +285,7 @@ This assignment required the creation of a Swing Arm designed from four provided
 
 ### Reflection
 
-
+Getting back into CAD after taking more than a year's worth of a break took a significant amount of adjusting, especially considering that this was my first time using Onshape. Fortunately, as soon as I got started, I found the program to be intuitive and efficient, and completing this assignment (with the help of the walkthrough) was an important first step to getting CAD back into my system. The first time that I changed the dimensions of the A, B, and C variables the entire sketch definitely broke, so fixing that and dissecting the relations between lines was a good challenge to solve.
 
 ## Skateboard
 
@@ -304,3 +307,4 @@ This assignment required the creation of a skateboard, using the creation of mul
 
 ### Reflection
 
+Cranking on the toons and having one window on the instructions and the other on my Part Studio was definitely the way to go about this assignment. It reinforced a lot of the fundamentals that I learned in the prior CAD assignment, and understanding how parts are creating together and then independently joined in an assembly was an old concept that was (for me) relearned in this new program. Creating parts relative to others was a new concept that I learned using the "Use" button, and will definitely be something I need to continue to entirely understand and be able to incorporate into my future constructions. My favorite part was making the skateboard colorful.
