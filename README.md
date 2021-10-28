@@ -18,7 +18,7 @@ What ISN'T there to say about Cole Lyman? A lot!
 
 ### CAD:
 
-- [Calculator](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#swing-arm)
+- [Swing Arm](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#swing-arm)
 - [Skateboard](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#skateboard)
 
 ---
