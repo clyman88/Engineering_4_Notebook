@@ -282,4 +282,25 @@ This assignment required the creation of a Swing Arm designed from four provided
 
 ### Reflection
 
+
+
 ## Skateboard
+
+### Assignment Description
+
+This assignment required the creation of a skateboard, using the creation of multiple parts and the eventual assembly of those parts.
+
+### Evidence 
+
+![Skateboard_First_Parts](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/Skateboard_no_wheels.png)
+
+![Skateboard_Wheel_and_Bearings](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/Wheel_bearings.png)
+
+![Full Skateboard](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/Skateboard_full.png)
+
+### Part Link
+
+[Skateboard_Assembly_Link](https://cvilleschools.onshape.com/documents/e53223de13228aa3105cf500/w/5b68eba53bef752ac0b97fc0/e/b5fc67f3114f74169da27832)
+
+### Reflection
+
