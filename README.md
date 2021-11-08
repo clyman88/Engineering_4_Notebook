@@ -308,3 +308,26 @@ This assignment required the creation of a skateboard, using the creation of mul
 ### Reflection
 
 Cranking on the tunes and having one window on the instructions and the other on my Part Studio was definitely the way to go about this assignment. It reinforced a lot of the fundamentals that I learned in the prior CAD assignment, and understanding how parts are creating together and then independently joined in an assembly was an old concept that was (for me) relearned in this new program. Creating parts relative to others was a new concept that I learned using the "Use" button, and will definitely be something I need to continue to entirely understand and be able to incorporate into my future constructions. My favorite part was making the skateboard colorful. The method of creating the deck was relatively straightforward, but defining all of the other parts required more brainpower and resulted in a lot of switching between tabs. Using the revolution tool was pretty intuitive, and went relatively smoothly, and it got to the point where I would just have to read exactly what the step required (plus dimensions) and I would be able to complete it without going micro-step by micro-step.
+
+## Duck!
+
+### Assignment Description
+
+This assignment required the creation of configurations of different sizes of bricks that would eventually be used to construct a duck.
+
+### Evidence 
+
+![Brick](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/Brick.png)
+
+![Duck_Assembly](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/Duck_Assembly.png)
+
+![Drawing](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/Drawing.png)
+
+### Part Link
+
+[Duck_Assembly_Link](https://cvilleschools.onshape.com/documents/275f311a397b70555b367d23/w/c731c5d5c955a1a3b9d4d4e8/e/e8f8e55053248e8d2a6fb8be)
+
+### Reflection
+
+This project was the most fun CAD assignment that I have done in a long time; something about creating Legos and building them virtually gave me an immense amount of joy. I learned a bunch about configurations, and exploding the duck I made made me equally as happy as building it in the first place. Snapping the studs into place took a little bit of practice at first, but I got the hang of it eventually. I also made a lot of other colors, because the more the merrier. I think it would be interesting to try to configure some slanted bricks...
+
