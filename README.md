@@ -335,7 +335,9 @@ This project was the most fun CAD assignment that I have done in a long time; so
 
 # Raspberry Pi
 
+
 ## GPIO Pin Intro:
+
 
 ### Assignment Description
 
@@ -351,6 +353,7 @@ This project was the most fun CAD assignment that I have done in a long time; so
 
 ## Shutdown Button:
 
+
 ### Assignment Description
 
 
@@ -365,6 +368,7 @@ This project was the most fun CAD assignment that I have done in a long time; so
 
 ## GPIO - I2C:
 
+
 ### Assignment Description
 
 
@@ -378,6 +382,7 @@ This project was the most fun CAD assignment that I have done in a long time; so
 
 
 ## Headless Accelerometer:
+
 
 ### Assignment Description
 
