@@ -331,3 +331,67 @@ This assignment required the creation of configurations of different sizes of br
 
 This project was the most fun CAD assignment that I have done in a long time; something about creating Legos and building them virtually gave me an immense amount of joy. I learned a bunch about configurations, and exploding the duck I made made me equally as happy as building it in the first place. Snapping the studs into place took a little bit of practice at first, but I got the hang of it eventually. I also made a lot of other colors, because the more the merrier. I think it would be interesting to try to configure some slanted bricks...
 
+---
+
+# Raspberry Pi
+
+
+## GPIO Pin Intro:
+
+
+### Assignment Description
+
+
+### Evidence 
+
+
+### Part Link
+
+
+### Reflection
+
+
+## Shutdown Button:
+
+
+### Assignment Description
+
+
+### Evidence 
+
+
+### Part Link
+
+
+### Reflection
+
+
+## GPIO - I2C:
+
+
+### Assignment Description
+
+
+### Evidence 
+
+
+### Part Link
+
+
+### Reflection
+
+
+## Headless Accelerometer:
+
+
+### Assignment Description
+
+
+### Evidence 
+
+
+### Part Link
+
+
+### Reflection
+
