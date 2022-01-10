@@ -4,7 +4,7 @@ from time import sleep
 
 GPIO.setmode(GPIO.BCM)
 
-channel_list = [5, 19, 26]
+channel_list = [5, 12, 21]
 
 GPIO.setup(channel_list, GPIO.OUT, initial=GPIO.LOW)
 
