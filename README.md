@@ -348,7 +348,7 @@ This project was the most fun CAD assignment that I have done in a long time; so
 
 ### Wiring
 
-![Blinking Lights_Wiring](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/GPIO-wiring.jpg)
+![Blinking Lights_Wiring](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/GPIO-wiring.JPG)
 
 ### Reflection
 
