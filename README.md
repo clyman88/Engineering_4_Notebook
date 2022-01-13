@@ -341,6 +341,7 @@ This project was the most fun CAD assignment that I have done in a long time; so
 
 ### Assignment Description
 
+This assignment required coding LEDs connected to a raspberry pi to flash on and off in sequence, alternating which LED was turned on while the others were turned off. It required use of a T-Cobbler and GPIO pins.
 
 ### Evidence 
 
@@ -358,12 +359,15 @@ This project was the most fun CAD assignment that I have done in a long time; so
 
 ### Assignment Description
 
+This assignment required the creation of a button that would automatically shut down the raspberry pi without having to manual put in a shutdown command.
 
 ### Evidence 
 
+![Shutdown Button in action](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/shutdown.MOV)
 
-### Part Link
+### Wiring
 
+![Shutdown Button wiring](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/shutdown.JPG)
 
 ### Reflection
 
