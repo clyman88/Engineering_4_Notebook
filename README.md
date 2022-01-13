@@ -344,7 +344,7 @@ This project was the most fun CAD assignment that I have done in a long time; so
 
 ### Evidence 
 
-![Blinking Lights](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/GPIO-video.mov)
+![Blinking Lights](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/GPIO-video.MOV)
 
 ### Wiring
 
