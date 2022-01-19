@@ -377,12 +377,16 @@ This assignment required the creation of a button that would automatically shut 
 
 ### Assignment Description
 
+For this assignment, we had to display an accelerometer output on a micro-LCD using I2C communication.
 
 ### Evidence 
 
+![I2C-Evidence1](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/I2C-Evidence1.JPG)
+![I2C-Evidence1](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/I2C-Evidence2.JPG)
 
 ### Wiring
 
+![I2C-Wiring](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/I2C-Wiring.JPG)
 
 ### Reflection
 
