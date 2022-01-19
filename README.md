@@ -381,7 +381,7 @@ This assignment required the creation of a button that would automatically shut 
 ### Evidence 
 
 
-### Part Link
+### Wiring
 
 
 ### Reflection
@@ -396,8 +396,37 @@ This assignment required the creation of a button that would automatically shut 
 ### Evidence 
 
 
-### Part Link
+### Wiring
 
 
 ### Reflection
 
+
+## Pi Camera:
+
+
+### Assignment Description
+
+
+### Evidence 
+
+
+### Wiring
+
+
+### Reflection
+
+
+## Copypasta:
+
+
+### Assignment Description
+
+
+### Evidence 
+
+
+### Wiring
+
+
+### Reflection
