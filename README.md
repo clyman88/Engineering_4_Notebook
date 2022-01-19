@@ -396,12 +396,15 @@ For this assignment, we had to display an accelerometer output on a micro-LCD us
 
 ### Assignment Description
 
+This assignment is an extension of the previous one; we had to make the device battery-operated without relying on computer input, as well as having a graphic displaying accelerometer stats.
 
 ### Evidence 
 
+![I2C-Evidence1](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/HeadAccel-Evidence.JPG)
 
 ### Wiring
 
+![I2C-Evidence1](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/HeadAccel-Wiring.JPG)
 
 ### Reflection
 
