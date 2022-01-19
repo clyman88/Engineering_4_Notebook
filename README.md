@@ -386,7 +386,7 @@ For this assignment, we had to display an accelerometer output on a micro-LCD us
 
 ### Wiring
 
-![I2C-Wiring](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/I2C-Wiring.JPG)
+![I2C-Wiring](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/HeadAccel-Wiring.JPG)
 
 ### Reflection
 
