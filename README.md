@@ -341,12 +341,15 @@ This project was the most fun CAD assignment that I have done in a long time; so
 
 ### Assignment Description
 
+This assignment required coding LEDs connected to a raspberry pi to flash on and off in sequence, alternating which LED was turned on while the others were turned off. It required use of a T-Cobbler and GPIO pins.
 
 ### Evidence 
 
+![Blinking Lights](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/GPIO-video.gif)
 
-### Part Link
+### Wiring
 
+![Blinking Lights_Wiring](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/GPIO-wiring.JPG)
 
 ### Reflection
 
@@ -356,12 +359,15 @@ This project was the most fun CAD assignment that I have done in a long time; so
 
 ### Assignment Description
 
+This assignment required the creation of a button that would automatically shut down the raspberry pi without having to manual put in a shutdown command.
 
 ### Evidence 
 
+![Shutdown Button in action](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/shutdown.MOV)
 
-### Part Link
+### Wiring
 
+![Shutdown Button wiring](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/shutdown.JPG)
 
 ### Reflection
 
@@ -371,12 +377,16 @@ This project was the most fun CAD assignment that I have done in a long time; so
 
 ### Assignment Description
 
+For this assignment, we had to display an accelerometer output on a micro-LCD using I2C communication.
 
 ### Evidence 
 
+![I2C-Evidence1](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/I2C-Evidence1.JPG)
+![I2C-Evidence1](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/I2C-Evidence2.JPG)
 
-### Part Link
+### Wiring
 
+![I2C-Wiring](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/HeadAccel-Wiring.JPG)
 
 ### Reflection
 
@@ -386,12 +396,44 @@ This project was the most fun CAD assignment that I have done in a long time; so
 
 ### Assignment Description
 
+This assignment is an extension of the previous one; we had to make the device battery-operated without relying on computer input, as well as having a graphic displaying accelerometer stats.
+
+### Evidence 
+
+![I2C-Evidence1](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/HeadAccel-Evidence.JPG)
+
+### Wiring
+
+![I2C-Evidence1](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/HeadAccel-Wiring.JPG)
+
+### Reflection
+
+
+## Pi Camera:
+
+
+### Assignment Description
+
 
 ### Evidence 
 
 
-### Part Link
+### Wiring
 
 
 ### Reflection
 
+
+## Copypasta:
+
+
+### Assignment Description
+
+
+### Evidence 
+
+
+### Wiring
+
+
+### Reflection
