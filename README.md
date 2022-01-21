@@ -417,9 +417,15 @@ This assignment is an extension of the previous one; we had to make the device b
 
 ### Evidence 
 
+![Effect1](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pics/effect_1.jpg)
+![Effect2](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pics/effect_2.jpg)
+![Effect3](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pics/effect_3.jpg)
+![Effect4](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pics/effect_4.jpg)
+![Effect5](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pics/effect_5.jpg)
 
 ### Wiring
 
+![Camera_connecter](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/Camera%20(1).JPG)
 
 ### Reflection
 
@@ -435,5 +441,6 @@ This assignment is an extension of the previous one; we had to make the device b
 
 ### Wiring
 
+![Camera_connecter](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/Camera%20(1).JPG)
 
 ### Reflection
