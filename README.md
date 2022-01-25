@@ -373,7 +373,7 @@ GPIO.setup(channel_list, GPIO.OUT, initial=GPIO.LOW)
 
 ### Assignment Description
 
-This assignment required the creation of a button that would automatically shut down the raspberry pi without having to manual put in a shutdown command.
+This assignment required the creation of a button that would automatically shut down the raspberry pi without having a user manually input a shutdown command.
 
 ### Evidence 
 
@@ -385,6 +385,27 @@ This assignment required the creation of a button that would automatically shut 
 
 ### Reflection
 
+Right off the bat, here's the code for making a button be able to work:
+
+```python3
+import RPi.GPIO as GPIO 
+
+reset_shutdown_pin = 4
+
+# Suppress warnings
+GPIO.setwarnings(False)
+
+# Use "GPIO" pin numbering
+GPIO.setmode(GPIO.BCM)
+
+# Use built-in internal pullup resistor so the pin is not floating
+# if using a momentary push button without a resistor.
+GPIO.setup(reset_shutdown_pin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+```
+
+I always find it difficult to work with other people's code, since typically everything makes more sense to the individual who writes it, and this was no exception; working with a piece of code that (in parts) was a bit above my current level of understanding was challenging, to say the least. Luckily, I had to make very little alterations to get it to work. 
+
+The main hardship lied in making this code run in the background without prompting. Putting a line in the bootup code didn't suffice for my machine, oddly enough, so the solution was to make the program a "service", similar to how we accomplished the headless accelerometer in an upcoming assignment.
 
 ## GPIO - I2C:
 
@@ -404,6 +425,42 @@ For this assignment, we had to display an accelerometer output on a micro-LCD us
 
 ### Reflection
 
+Once again, this project was difficult mainly due to getting used to new functions and ways of interacting with new programs and libraries previously unknown to me. Trouble-shooting involved a lot of making small alterations to several lines, testing it, and then sighing in frustration as my changes yielded... no visible change. Eventually, I was able to display accelerometer data on the micro-LCD.
+
+Here's the rather lengthy process for showing text on the screen:
+
+```python3
+
+disp = Adafruit_SSD1306.SSD1306_128_64(rst=RST, i2c_address=0x3d)
+
+disp.begin()
+
+disp.clear()
+disp.display()
+
+width = disp.width
+height = disp.height
+image = Image.new('1', (width,height))
+
+draw = ImageDraw.Draw(image)
+
+font = ImageFont.load_default()
+
+while True:
+
+  disp.clear()
+  
+  draw.rectangle((0,0,width,height), outline=0, fill=0)
+
+  draw.text((2, 2), "Test", font=font, fill=255)
+
+  disp.image(image)
+
+  disp.display()
+  
+  time.sleep(.2)
+
+```
 
 ## Headless Accelerometer:
 
@@ -422,6 +479,15 @@ This assignment is an extension of the previous one; we had to make the device b
 
 ### Reflection
 
+This assignment was surprisingly easy from a code-based standpoint, as a lot of the foundations created in the last assignment were used again in this project. The only difference was displaying shapes:
+
+```python3
+
+draw.ellipse((x, y, x+15, y+15), outline=255, fill=0)
+
+```
+
+I briefly attempted to make the ellipse displayed (being affected by the acceleration of the unit) act as something for the user to interact with for a game, where they would have to collide with other, smaller ellipses to get points. However, collision code is difficult, so this plan quickly fell through.
 
 ## Pi Camera:
 
@@ -448,6 +514,27 @@ There were two assignments in one for this project:
 
 ### Reflection
 
+This assignment was straightforward and enjoyable. Here is new code that is helpful to know in the future:
+
+```python3
+
+import picamera
+
+effects = []
+i = c_effect
+
+with picamera.PiCamera() as camera:
+
+    camera.resolution = (1024, 768)
+    camera.start_preview()
+    
+    camera.image_effect = effects[i]
+    
+    camera.capture('effect_' + str(i+1) + '.jpg')
+
+```
+
+In terms of the creative process for taking thrilling pictures, I thought that my intriguing and mysterious face would be the perfect figurehead; a subject to flaunt its mystique in this magnum opus.
 
 ## Copypasta:
 
@@ -464,3 +551,7 @@ This assignment required designing a program that would take a picture each time
 ![Camera_connecter](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/Camera%20(1).JPG)
 
 ### Reflection
+
+The coding, wiring and photographic process for this was all pretty easy; the one hiccup was actually uploading all 83 (yes, 87) pictures to the github, as well as actually viewing the pictures while taking them (this was difficult mainly because it's impossible). Instead of pushing to the github, I manually inserted my SD into the computer and uploaded from files.
+
+Putting the video together was as simple as putting all of the pictures together in DaVinci Resolve and exporting as a GIF.
