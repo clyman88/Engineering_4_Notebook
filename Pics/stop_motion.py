@@ -3,7 +3,8 @@ import picamera
 import RPi.GPIO as GPIO
 
 GPIO.setmode(GPIO.BCM)
-GPIO.setup(4, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+pin = 26
+GPIO.setup(pin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
 toggle = False
 
@@ -15,11 +16,11 @@ with picamera.PiCamera() as camera:
     time.sleep(2)
     print("Ready!")
     while True:
-        if GPIO.input(4) == False and not toggle:
+        if GPIO.input(pin) == False and not toggle:
             toggle = True
             camera.capture("Stop-Motion/pic" + str(num) + ".jpg")
             print("Picture taken ("+str(num)+").")
             num += 1
-        elif GPIO.input(4) == True:
+        elif GPIO.input(pin) == True:
             toggle = False
 
