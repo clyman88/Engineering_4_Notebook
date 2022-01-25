@@ -341,7 +341,7 @@ This project was the most fun CAD assignment that I have done in a long time; so
 
 ### Assignment Description
 
-This assignment required coding LEDs connected to a raspberry pi to flash on and off in sequence, alternating which LED was turned on while the others were turned off. It required use of a T-Cobbler and GPIO pins.
+This assignment required coding LEDs connected to a raspberry pi to flash on and off in sequence, alternating which LED was turned on while the others were turned off. It required use of a T-Cobbler and GPIO pins, making the main point of this assignment to become familiar with using both aforementioned materials.
 
 ### Evidence 
 
@@ -353,6 +353,20 @@ This assignment required coding LEDs connected to a raspberry pi to flash on and
 
 ### Reflection
 
+Since this was the introduction of an entirely new concept, the most difficult part was getting accustomed to the syntax of the new code and conceptually understanding what was going on. There have been a few "blinking" assignments in the past, so the structure of designing a piece of code that blinks LEDs one at a time was familiar to me. Incorporation of the GPIO pins is demonstrated here:
+
+```python3
+
+  
+import RPi.GPIO as GPIO
+
+GPIO.setmode(GPIO.BCM)
+
+channel_list = [5, 12, 21]
+
+GPIO.setup(channel_list, GPIO.OUT, initial=GPIO.LOW)
+
+```
 
 ## Shutdown Button:
 
@@ -414,6 +428,11 @@ This assignment is an extension of the previous one; we had to make the device b
 
 ### Assignment Description
 
+There were two assignments in one for this project:
+
+1.) Design a program that takes a picture, then prints "Done" when completed.
+
+2.) Design a program that takes five pictures, each with a different effects.
 
 ### Evidence 
 
@@ -435,6 +454,7 @@ This assignment is an extension of the previous one; we had to make the device b
 
 ### Assignment Description
 
+This assignment required designing a program that would take a picture each time a button was pressed, and creating a stop-motion video using the pictures taken using this program.
 
 ### Evidence 
 
