@@ -9,18 +9,24 @@ What ISN'T there to say about Cole Lyman? A lot!
 
 ## Table of Contents
 
-### Python:
+### [Python](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#python):
 
 - [Calculator](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#calculator)
 - [Quadratic Solver](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#quadratic-solver)
 - [Strings and Loops](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#strings-and-loops)
 - [Man-Shaped Pinata](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#man-shaped-pinata)
 
-### CAD:
+### [CAD](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#cad):
 
 - [Swing Arm](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#swing-arm)
 - [Skateboard](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#skateboard)
-- [Duck!](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#duck!)
+- [Duck!](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#duck)
+
+### [Raspberry Pi](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#cad):
+
+- [Swing Arm](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#swing-arm)
+- [Skateboard](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#skateboard)
+- [Duck!](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#duck)
 
 ---
 
