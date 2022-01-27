@@ -26,8 +26,10 @@ What ISN'T there to say about Cole Lyman? A lot!
 
 - [GPIO Pin Intro](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#gpio-pin-intro)
 - [Shutdown Button](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#shutdown-button)
-- [Duck!](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#duck)
-
+- [GPIO - I2C](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#gpio---i2c)
+- [Headless Accelerometer](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#headless-accelerometer)
+- [Pi Camera](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#pi-camera)
+- [Copypasta](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#copypasta)
 ---
 
 # Python
