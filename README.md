@@ -9,23 +9,23 @@ What ISN'T there to say about Cole Lyman? A lot!
 
 ## Table of Contents
 
-### [Python](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#python):
+### [Python](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#python-1):
 
 - [Calculator](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#calculator)
 - [Quadratic Solver](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#quadratic-solver)
 - [Strings and Loops](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#strings-and-loops)
 - [Man-Shaped Pinata](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#man-shaped-pinata)
 
-### [CAD](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#cad):
+### [CAD](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#cad-1):
 
 - [Swing Arm](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#swing-arm)
 - [Skateboard](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#skateboard)
 - [Duck!](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#duck)
 
-### [Raspberry Pi](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#cad):
+### [Raspberry Pi](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#raspberry-pi-1):
 
-- [Swing Arm](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#swing-arm)
-- [Skateboard](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#skateboard)
+- [GPIO Pin Intro](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#gpio-pin-intro)
+- [Shutdown Button](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#shutdown-button)
 - [Duck!](https://github.com/clyman88/Engineering_4_Notebook/blob/main/README.md#duck)
 
 ---
