@@ -554,6 +554,7 @@ This assignment required designing a program that would take a picture each time
 
 ### Evidence 
 
+![Epic GIF](https://github.com/clyman88/Engineering_4_Notebook/blob/main/Pictures/stopmotion.gif)
 
 ### Wiring
 
