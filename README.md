@@ -552,6 +552,6 @@ This assignment required designing a program that would take a picture each time
 
 ### Reflection
 
-The coding, wiring and photographic process for this was all pretty easy; the one hiccup was actually uploading all 83 (yes, 87) pictures to the github, as well as actually viewing the pictures while taking them (this was difficult mainly because it's impossible). Instead of pushing to the github, I manually inserted my SD into the computer and uploaded from files.
+The coding, wiring and photographic process for this was all pretty easy; the one hiccup was actually uploading all 83 (yes, 83) pictures to the github, as well as actually viewing the pictures while taking them (this was difficult mainly because it's impossible). Instead of pushing to the github, I manually inserted my SD into the computer and uploaded from files.
 
 Putting the video together was as simple as putting all of the pictures together in DaVinci Resolve and exporting as a GIF.
